@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* Header */
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('/img/mountain.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header .navtext {
+    color: #fff;
+}
+
+.header span>h1 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.header .navbar-nav {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+.header ul li {
+    cursor: pointer;
+    color: #fff;
+}
+
+.header ul li .active-link {
+    color: rgb(240, 240, 96);
+}
+
+.header ul .nav-item {
+    color: #fff !important;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.header .navbar a{
+    color:#fff;
+    font-size: 1rem;
+    margin:0 1rem;
+  }
+  
+.header .navbar a:hover{
+    color:rgb(240, 240, 96);
+  }
+
+.text-bg {
+    width: 30%;
+    color: white;
+    position: absolute;
+    top: 30%;
+    margin-left: 1.5rem;
+}
+
+.text-bg .btnnewcolor {
+    background-color: rgba(89, 55, 102, 0.918) !important;
+    color: white;
+}
+
+.text-bg .btnnewcolor:hover {
+    background-color: rgb(240, 240, 96) !important;
+    color: black;
+}
+
+.text-bg h1 {
+    font-weight: 600;
+}
+
+.text-bg p {
+    margin-top: 2rem;
+}
+
+.headbtn {
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    background-color: rgb(240, 240, 96);
+    font-weight: 600;
+}
+
+.headbtn:hover {
+    background-color: rgba(89, 55, 102, 0.918);
+    color: white;
+}
+
+
+/* Welcome Section */
+
+.welcome-text {
+    text-align: center;
+    color: black;
+}
+
+.welcome-about p {
+    width: 50%;
+    opacity: 0.6;
+    font-size: 25px;
+}
+
+.welcome-about {
+    margin-top: 50px;
+    display: flex;
+    position: relative;
+    left: 8rem;
+    margin-left: 10px;
+}
+
+.umbrella {
+    position: relative;
+    left: 7rem;
+    padding-bottom: 70px;
+    height: 14px;
+    width: auto;
+}
+
+.welcome-about img {
+    width: 10rem;
+    height: 10rem;
+    margin-top: -18px;
+}
+
+.welcome-feature .feature-text {
+    margin-top: 5px;
+    width: 100%;
+    height: 54%;
+    text-align: center;
+    opacity: .6;
+}
+
+.feature-list {
+    text-align: center;
+    margin-right: -10px;
+}
+
+.feature-list h3 {
+    color: rgb(80, 1, 80);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.feature-list .icon-feature i {
+    margin-top: 20px;
+    border: 10px solid rgba(89, 55, 102, 0.918);
+    border-radius: 50%;
+    background-color: rgba(89, 55, 102, 0.918);
+    color: white;
+}
+
+.feature-list .headbtn{
+    border-radius: 7px;
+    font-weight: 600;
+    margin-top: -50px;
+}
+
+
+/* Project Section */
+
+.project {
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.project .col>img {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.project .card-project {
+    background-color: hsla(210, 13%, 85%, 0.863);
+    padding-left: 40px;
+    padding-top: 40px;
+    height: 15rem;
+}
+
+.project .card-project .headbtn{
+    background-color: rgba(240, 239, 239, 0.856);
+    color: black;
+    border-radius: 7px;
+    font-size: 12px;
+}
+
+.project .card-project .headbtn:hover{
+    background-color: rgba(89, 55, 102, 0.918);
+    color: white;
+    border-radius: 7px;
+}
+
+.project .card-project:hover {
+    background-color: rgb(240, 240, 96);
+}
+
+.card-project h3 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.project .card-project p {
+    font-size: 15px;
+    opacity: .6;
+}
+
+.project .card-project button {
+    text-transform: uppercase;
+    width: 9rem !important;
+    height: 3rem !important;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+}
+.card-project-content{
+    padding-bottom: 2rem;
+}
+
+
+/* Pricing Section */
+
+.pricing .plan {
+    text-align: center;
+    border-right: 2px solid hsla(210, 8%, 79%, 0.863);
+}
+
+.pricing .row :hover {
+    background-color: hsla(210, 8%, 79%, 0.863);
+}
+
+.pricing .Price-plan h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.pricing .plan .buybtn {
+    width: 5rem;
+    font-weight: 600;
+    height: 2rem;
+    margin-bottom: 25px;
+    border: none;
+    background-color: rgb(240, 240, 96);
+    border-radius: 7px;
+}
+
+.pricing .plan .buybtn:hover {
+    background-color: rgba(89, 55, 102, 0.918);
+    color: white;
+}
+
+.pricing .plan .price-feature {
+    font-size: 1rem;
+}
+
+.pricing .noborder {
+    border: none;
+}
+
+.pricing .plan .price-feature p:first-child {
+    opacity: .6;
+}
+
+
+/* Video Section */
+
+.video {
+    width: 100%;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgba(89, 55, 102, 0.918);
+}
+
+.video .videoproject .titlevideo {
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.video .videoproject .ytvideo {
+    margin-top: 60px;
+    margin-left: 2rem;
+    padding-bottom: 60px;
+}
+
+
+/* Team Section */
+
+.team {
+    width: 100%;
+    margin-top: 38px;
+}
+
+.team h1 {
+    text-align: center;
+    color: black;
+}
+
+.team .team-people {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.team .team-people .person {
+    width: 10rem;
+    margin-left: 8rem;
+    opacity: 1;
+    display: block;
+    position: relative;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.team .team-people .person:after {
+    content: '';
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.team .team-people .person img {
+    border: .1px solid white;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.person ul {
+    width: 10rem;
+    padding: 10px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 18%;
+    display: block;
+    opacity: 0;
+    left: 4%;
+}
+
+.person ul li {
+    cursor: pointer;
+    padding: 7px;
+    margin: 3px;
+    display: inline-block;
+    color: rgba(89, 55, 102, 0.918);
+}
+
+.person:hover:after {
+    opacity: 1;
+}
+
+.person:hover ul {
+    opacity: 1;
+}
+
+.team-people p {
+    opacity: .6;
+}
+
+
+/* Life in Zippy Section */
+
+.life {
+    width: 100%;
+    margin-top: 50px;
+    background-color: hsla(204, 5%, 79%, 0.87);
+}
+
+.life .row h1 {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.js .slider-single>div:nth-child(1n+2) {
+    display: none
+}
+
+.js .slider-single.slick-initialized>div:nth-child(1n+2) {
+    display: block
+}
+
+.slider-single img {
+    width: auto;
+    height: 500px;
+}
+
+.slider-nav img {
+    width: auto;
+    height: 50px;
+    margin-left: 3px;
+}
+
+.small-centered {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.slider-nav {
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+
+/* Newsletter Section */
+
+.newsletter {
+    min-height: 15vh;
+    width: 100%;
+    background-image: url('/img/bridge.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.newsletter .row h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.newsletter input {
+    padding: 11px;
+    border: 1px solid #a4b7c4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-right: 100px;
+}
+
+.newsletter .inputemail {
+    margin-top: 40px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.newsletter input:focus {
+    outline: none;
+}
+
+.newsletter .headbtn {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/* Blog Section */
+
+.blog .blog-img img {
+    width: auto;
+    height: 8rem;
+}
+
+.blog .blog-body {
+    margin-top: 20px;
+}
+
+.blog .blog-time {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    opacity: .6;
+}
+
+.blog .headbtn{
+    border-radius: 7px;
+}
+
+
+/* Contact Section */
+
+.contact {
+    margin-top: 50px;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.contact .contactdetail {
+    background-color: rgb(240, 240, 96);
+    height: 500px;
+}
+
+.contact .contactdetail h1 {
+    margin-left: 30px;
+}
+
+.contact .contact-form form input {
+    margin-left: 30px;
+    border: 1px solid #a4b7c4;
+    padding: 10px;
+    margin-top: 5px;
+    width: 25rem;
+}
+
+.contact .contact-form form input:focus {
+    outline: none;
+}
+
+.contact .contact-form form textarea {
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 25rem;
+    border: 1px solid #a4b7c4;
+    resize: none;
+}
+
+.contact .contact-form form textarea:focus {
+    outline: none;
+}
+
+.contact-form form button {
+    border: none;
+    color: white;
+    background-color: rgba(89, 55, 102, 0.918);
+    font-size: 1rem;
+    width: 25rem;
+    margin-left: 30px;
+    padding: 13px;
+    margin-top: 5px;
+}
+
+.contact-form form button:hover{
+    background-color: rgba(141, 90, 161, 0.877);
+    color: black;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 10px;
+}
+
+.footer span {
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.footer .office address {
+    opacity: .6;
+}
+
+.footer .info .contactdetails {
+    opacity: .6;
+}
+
+.footer .social-media i {
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.footer .col-12 .text-center{
+    color: rgba(118, 72, 136, 0.863);;
+}

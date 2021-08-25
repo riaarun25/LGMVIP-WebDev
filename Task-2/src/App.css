@@ -1,0 +1,59 @@
+button{
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(38, 79, 194);
+  color:white;
+  padding: 7px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button:hover{
+  background-color: rgba(255, 255, 255, 0.89);
+  color: black;
+  border: none;
+  border-width: 1.5px;
+  border-color: rgb(0, 0, 0);
+}
+
+.navbar{
+  color: rgb(38, 79, 194);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-attachment: fixed;
+  background-color: rgba(161, 225, 250, 0.842);
+}
+.avatar{
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.profile {
+  max-width: 300px;
+  margin: 15px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
+  border-color: rgba(161, 225, 250, 0.842);
+  border-style: solid;
+  border-width: 5px;
+  background-color:white;
+}
+.profile:hover{
+  transition:500ms;
+  box-shadow: 10px 10px 20px rgba(161, 225, 250, 0.842);
+}
+p{
+  color: rgb(38, 79, 194);
+  font-size:20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.name{
+  color: rgb(29, 6, 129);
+  font-size: 30px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.email {
+  font-size: 22px;
+  color: blue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
